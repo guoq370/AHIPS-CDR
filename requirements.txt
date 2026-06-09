@@ -1,0 +1,21 @@
+# ==============================================================================
+# AHIPS-CDR: Environment Dependencies
+# Compatible with Python 3.10+
+# ==============================================================================
+
+# Core Deep Learning Framework
+torch==2.0.1
+numpy==1.24.3
+pandas==2.0.3
+
+# Graph Neural Network Library (CUDA 11.8 compatible)
+dgl==1.1.2
+
+# Text Feature Extraction & Alignment (BERT similarity & Community Detection)
+transformers==4.30.2
+scikit-learn==1.2.2
+scipy==1.10.1
+
+# Configuration & Utilities
+PyYAML==6.0
+tqdm==4.65.0
