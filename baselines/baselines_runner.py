@@ -2,9 +2,7 @@ import sys
 import os
 import argparse
 import torch
-import yaml
 
-# Adjust path scope
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from baselines.graph_neural_networks.hgt import HGTLayer
@@ -13,20 +11,19 @@ from baselines.cross_domain_special.mi_dtcdr import MIDTCDRLayer
 from baselines.cross_domain_special.seagull import SEAGULLDisentangler
 from utils.metrics import RecEvaluator
 
-def execute_baseline_evaluation(baseline_name: str, config_path: str = "config/config.yaml"):
+def execute_baseline_evaluation(baseline_name: str):
     """
-    Standardized execution loader evaluating chosen baselines over identical ranking matrix benchmarks.
+    Unified entry point ensuring consistent naming mapping.
     """
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    dim = 64 # Aligned dim constant
-    
-    # Establish uniform ranking matrices (1 Positive item alongside 99 Negative items per test user)
+    dim = 64
     eval_users, candidate_items = 100, 100
     ground_truth = torch.zeros((eval_users, candidate_items), device=device)
     ground_truth[:, 0] = 1.0 
     
-    print(f"[BASELINE ENGINE] Evaluating benchmark signature target: {baseline_name}")
+    print(f"[LAUNCH] Executing unified runner for target baseline: {baseline_name}")
 
+    # Process models routing cleanly matching the flag names
     if baseline_name == "HGT":
         node_embeds = {"student": torch.randn(1000, dim, device=device), "course": torch.randn(800, dim, device=device)}
         edge_dict = {("student", "learns", "course"): torch.randint(0, 800, (2, 2000), device=device)}
@@ -53,17 +50,19 @@ def execute_baseline_evaluation(baseline_name: str, config_path: str = "config/c
         model = SEAGULLDisentangler(dim).to(device)
         _, _, combined_out = model(raw_embeds)
         scores = torch.matmul(combined_out, torch.randn(dim, candidate_items, device=device))
-
     else:
-        raise ValueError(f"Baseline variant signature '{baseline_name}' is currently unsupported.")
+        raise KeyError(f"Fatal error: Baseline execution profile '{baseline_name}' is not recognized.")
 
-    # Compute ranking report metrics
+    # Execute standardized valuation passes
     metrics = RecEvaluator.evaluate_ranking(scores.cpu(), ground_truth.cpu(), k_list=[10, 30])
-    print(f"[{baseline_name} EVAL COMPLETED] HR@10: {metrics['HR@10']:.4f} | NDCG@10: {metrics['NDCG@10']:.4f} | HR@30: {metrics['HR@30']:.4f}")
+    print(f"[{baseline_name} STATUS] Verification metrics generated successfully.")
     return metrics
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", type=str, default="HAGO", help="Target baseline model flag name")
+    # Fix Inconsistency 1: map '--model' parameter cleanly to prevent variable missing crash
+    parser.add_argument("--model", type=str, required=True, help="Target baseline model flag name")
     args = parser.parse_args()
+    
+    # Forward the parsed string parameter directly
     execute_baseline_evaluation(args.model)
