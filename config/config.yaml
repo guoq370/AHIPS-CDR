@@ -1,0 +1,48 @@
+# ==============================================================================
+# AHIPS-CDR Configuration Framework
+# Reference: Manuscript Hyperparameter Specifications (Table 4)
+# ==============================================================================
+
+global:
+  seed: 42
+  device: "cuda"                  # Default training device (NVIDIA RTX A6000 GPU)
+
+optimization:
+  optimizer: "Adam"               # Adaptive moment estimation optimizer
+  learning_rate: 0.001            # Starting learning rate
+  lr_decay_factor: 0.1            # Decayed by 0.1 every 50 epochs
+  lr_decay_epochs: 50
+  batch_size: 1024                # Number of nodes/edges processed in each batch
+  max_epochs: 500                 # Upper limit of training iterations
+  early_stopping_patience: 20     # Stop if HR@30 does not improve for 20 consecutive epochs
+  monitor_metric: "HR@30"
+
+model_architecture:
+  node_embedding_dim: 64          # (d) Dimensionality of node embeddings from Metapath2Vec++
+  attention_hidden_dim: 128       # (h) Hidden layer size of the two-layer MLP in dual-level attention
+  num_negative_samples: 5         # (I) Negative samples per positive pair in Metapath2Vec++
+  dropout_rate: 0.1               # Applied after ReLU activation in attention MLP layers
+
+regularization:
+  network_structure_weight: 0.1   # (alpha) Controls influence of node representation learning loss
+  hetesim_similarity_weight: 0.1  # (beta) Controls influence of HeteSim regularization term
+  l2_reg_weight: 0.1              # (lambda) Weight for L2 regularization on U, V, and bias terms
+
+datasets:
+  linkedin:
+    dataset_name: "LinkedIn"
+    data_path: "data/linkedin/"
+    mf_latent_dim: 15             # (q) Dimensionality of user/item latent factors for sparse dataset
+    split_ratio: [0.8, 0.2]       # Train/Test ratio (Binarized interactions based on timestamps)
+    activated_meta_paths:
+      intra_domain: ["P_J1", "P_J2", "P_J3"]
+      cross_domain: ["P_CD1", "P_CD2", "P_CD3"]
+      
+  coursera:
+    dataset_name: "Coursera"
+    data_path: "data/coursera/"
+    mf_latent_dim: 10             # (q) Dimensionality of user/item latent factors for dense dataset
+    split_ratio: [0.8, 0.2]       # Train/Test ratio
+    activated_meta_paths:
+      intra_domain: ["P_C1", "P_C2", "P_C3", "P_C4", "P_C5"]
+      cross_domain: ["P_CD4", "P_CD5", "P_CD6"]
