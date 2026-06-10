@@ -13,6 +13,9 @@ from models.ips_attention import IndependentParallelStrategy
 from models.joint_predictor import EnhancedMatrixFactorization
 from utils.loss_functions import AHIPSCDRJointLoss
 from evaluate import execute_evaluation
+from data_preprocessing.dataset_loader import UnifiedHeteroDataset
+
+
 
 class AHIPSCDR_Orchestrator(nn.Module):
     """
@@ -81,18 +84,20 @@ def run_pipeline_training(config_path: str = "config/config.yaml", ablation: str
     torch.manual_seed(config['global']['seed'])
     device = torch.device(config['global']['device'] if torch.cuda.is_available() else "cpu")
     
-    # Unified dimensions setup
-    num_samples, num_users, num_items = 2000, 1000, 800
-    mock_users = torch.randint(0, num_users, (num_samples,))
-    mock_items = torch.randint(0, num_items, (num_samples,))
-    mock_ratings = torch.rand((num_samples,)) * 5.0
+    # # Unified dimensions setup
+    # num_samples, num_users, num_items = 2000, 1000, 800
+    # mock_users = torch.randint(0, num_users, (num_samples,))
+    # mock_items = torch.randint(0, num_items, (num_samples,))
+    # mock_ratings = torch.rand((num_samples,)) * 5.0
     
-    # Paths representation format matching [Batch_size, Metapaths_count]
-    mock_intra = torch.randint(0, num_users, (num_samples, 4)) 
-    mock_cross = torch.randint(0, num_users, (num_samples, 4))
-    mock_hetesim = torch.rand((num_samples,))
+    # # Paths representation format matching [Batch_size, Metapaths_count]
+    # mock_intra = torch.randint(0, num_users, (num_samples, 4)) 
+    # mock_cross = torch.randint(0, num_users, (num_samples, 4))
+    # mock_hetesim = torch.rand((num_samples,))
 
-    dataset = TensorDataset(mock_users, mock_items, mock_ratings, mock_intra, mock_cross, mock_hetesim)
+    # dataset = TensorDataset(mock_users, mock_items, mock_ratings, mock_intra, mock_cross, mock_hetesim)
+    # train_loader = DataLoader(dataset, batch_size=config['optimization']['batch_size'], shuffle=True)
+    dataset = UnifiedHeteroDataset(dataset_name=config['global_dataset_flag'])
     train_loader = DataLoader(dataset, batch_size=config['optimization']['batch_size'], shuffle=True)
 
     node_counts = {"student": num_users, "course": num_items, "skill": 500}
