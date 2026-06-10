@@ -1,0 +1,119 @@
+job_id,job_title,job_description,skills_required
+J10542,Junior Data Scientist,Analyze user interaction metrics build predictive modeling workflows and visualize distributions,Python|Data Analysis|Machine Learning
+J23104,Senior Deep Learning Engineer,Design advanced neural network architectures optimize backpropagation steps deploy visual classification models,Deep Learning|Neural Networks|Computer Vision
+J11053,Big Data Infrastructure Engineer,Build high-performance distributed systems handle massive datasets scale streaming server clusters,Apache Spark|Big Data|Distributed Systems
+J18952,Database Administrator and SQL Developer,Normalize relational schemas write optimized database aggregate queries monitor index performance,SQL|Databases|Performance Tuning
+J14320,Cloud Security Architect,Manage cloud private networks configure secure gateways deploy firewalls protect cluster identities,Cloud Computing|AWS|Cybersecurity
+J20156,Core Java Backend Developer,Build multi-threaded enterprise software map object data structures handle exception flows,Java|Object-Oriented Programming|Data Structures
+J13490,NoSQL Database Systems Specialist,Administer document stores shard large-scale collections optimize distributed data availability,NoSQL Databases|MongoDB|Distributed Systems
+J16742,Algorithms Research Scientist,Analyze algorithmic complexity write graph tree search codes optimize numerical optimization,Algorithms|Data Structures|Python
+J25612,NLP Scientist and Large Language Modeler,Train transformer models fine-tune pre-trained language text classifications build tokenizers,NLP|Transformers|Deep Learning
+J10432,Data Pipeline Engineer,Design high-throughput ETL pipelines maintain storage warehouses automate transactional flows,Data Pipelines|ETL|Data Engineering
+J14532,Statistical Modeler and Analyst,Perform regression modeling design hypothesis test partitions isolate baseline tracking variance indicators,Statistics|Data Modeling|R
+J18743,Frontend Web Applications Engineer,Build interactive user client screens deploy component state logic trees via modern javascript,JavaScript|React|Node.js
+J26531,DevOps Containerization Architect,Orchestrate container deployments scale pod routing infrastructures optimize continuous delivery tools,Docker|Kubernetes|DevOps
+J11452,Linux Systems Operations Administrator,Configure enterprise server nodes manage user permissions script automated shell maintenance routines,Linux|Shell Scripting|System Administration
+J20314,Business Intelligence Lead Analyst,Synthesize cross-departmental records build automated dashboards map enterprise growth indicators,Business Intelligence|Tableau|PowerBI
+J15321,Network Security Engineer,Deploy intrusion monitoring firewalls audit cryptographic key exchange verify secure communication connections,Network Security|Cryptography|Cybersecurity
+J24531,Secure Infrastructure Software Engineer,Review secure code layouts prevent reentrancy code defects patch server vulnerabilities,Software Security|C|Operating Systems
+J19324,Statistical Computing Developer,Parse custom dataset files write descriptive data analysis modules evaluate normal distributions,R|Data Analysis|Statistics
+J12043,Time Series Forecasting Scientist,Model sequential transactional metrics run predictive forecasting systems monitor seasonal trend variations,Time Series|Forecasting|Statistics
+J25431,Autonomous AI Systems Researcher,Train reinforcement learning agents shape complex objective functions maximize cumulative rewards,Reinforcement Learning|AI|Python
+J16421,Graph Machine Learning Specialist,Build graph neural network layers compute metapath similarity metrics over heterogeneous graphs,Graph Neural Networks|HIN|Machine Learning
+J22043,QA Automation Testing Lead,Write unit software testing suites deploy continuous evaluation loops check code coverage metrics,Software Testing|CI/CD|Automation
+J14390,Junior Frontend Developer,Code semantic web mockups manage css transition files adapt interface layouts,HTML5|CSS3|UI/UX
+J17432,System Level C++ Programmer,Manage explicit memory pointer variables compile low-level libraries optimize code performance,C++|Programming|Low-level
+J20943,Android Mobile Application Engineer,Build native android clients handle mobile lifecycle component hooks serialize database states,Android|Java|Mobile Development
+J11843,Agile Scrum Master Delivery Manager,Facilitate scrum team routines remove operational blockages manage product sprint definitions,Scrum|Agile|Project Management
+J26431,Machine Learning Mathematical Modeler,Compute multivariate matrix calculations design linear vector projections map data matrices,Linear Algebra|Mathematics|Machine Learning
+J15432,Mathematical Optimization Scientist,Implement discrete math graph proof frameworks evaluate complex evolutionary global optimization searches,Discrete Math|Optimization|Algorithms
+J19043,GPU GPU Computing Engineer,Write optimized parallel CUDA kernels coordinate register allocation maximize multi-threaded memory access,CUDA|Parallel Computing|C++
+J23041,Distributed Consensus Architect,Deploy decentralized consensus engines manage state machine replications review raft leader choices,Distributed Systems|Consensus|Raft
+J12943,Compiler Construction Specialist,Build lexical tokenizers generate syntax token stream trees build compiler intermediate assembly,Compilers|Parsing|Computer Science
+J27541,3D Graphics Engine Programmer,Write fragment visual vertex shaders handle opengl transformation matrices map textures,OpenGL|Computer Graphics|3D
+J14842,User Interface Research Lead,Conduct target human consumer testing track interactive prototype metrics optimize cognitive load,HCI|User Studies|Design
+J18043,Information Retrieval Search Engineer,Optimize search index data layers implement ranking metrics structure token matching scales,Information Retrieval|Search Engines|Lucene
+J21943,Enterprise Data Lake Architecture Specialist,Manage massive facts dimension schemas design star database layouts trace execution paths,Data Warehousing|SQL|ETL
+J10842,Embedded Control Microcontroller Firmware Engineer,Code low-power hardware sensor interrupt registers write real-time processor system scripts,Embedded Systems|C|Hardware
+J24943,Electronic Audio Signal Processing Engineer,Apply digital transforms filter wave electronic audio streams model acoustic waveforms,DSP|MATLAB|Signal Processing
+J13942,Heuristic Optimization Software Lead,Code heuristic search frameworks resolve massive matrix constraints escape localized minimum bounds,AI|Heuristics|Python
+J16043,Computer Systems Hardware Engineer,Model cpu register pipelining manage instruction dependencies analyze cache structure sizes,Computer Architecture|Hardware|Assembly
+J22941,Applied Cryptographic Infrastructure Specialist,Manage public certificate token frameworks build secure authentication keys verify transport protections,Cryptography|Security|Mathematics
+J14043,Blockchain Smart Contract Engineer,Write Solidity smart contracts enforce transactional invariants audit cryptographic blocks,Blockchain|Solidity|Distributed Systems
+J17054,Technology Development Scrum Lead,Manage complex product backlogs facilitate sprint capacity estimates track milestone burn charts,Agile|Project Management|Scrum
+J20842,Software Architecture Patterns Advisor,Enforce SOLID software patterns design decoupled object interface microservices systems,Design Patterns|Software Architecture|Java
+J11943,Version Control Workflow Systems Lead,Design git-flow enterprise strategies evaluate branching pull request histories guide teams,Git|DevOps|Collaboration
+J25941,High Performance FastAPI Backend Architect,Deploy asynchronous microservice routing models configure secure network API tokens,FastAPI|Python|Backend Development
+J15042,Data Profiling and Prep Automation Engineer,Clean massive transaction database tables automate outlier removal adjust distorted column scales,Data Preprocessing|Python|Pandas
+J19543,Visual Data Journalism Specialist,Draw professional vector statistical plots configure dataset heatmaps write narrative graphs,Data Visualization|Python|Matplotlib
+J23842,Advanced Tableau Reports BI Consultant,Design complex parameters maps combine segmented data metrics output dashboard layers,Tableau|Data Visualization|Business Intelligence
+J12541,PowerBI DAX Intelligence Developer,Model relational business data write reporting formulas process messy transactional records,PowerBI|Data Visualization|Business Intelligence
+J26943,Industrial Computer Vision Specialist,Deploy image pixel matrix modification operations calculate visual shapes classify visual objects,Computer Vision|Image Processing|OpenCV
+J14142,Apache Airflow Workflow Orchestrator,Write directed graphs track failed job signals build automated ETL scheduling,Data Pipelines|Apache Airflow|DevOps
+J17943,Jenkins Continuous Integration System Administrator,Manage declarative jenkins pipelines isolate multi-node testing environments script build webhooks,Jenkins|CI/CD|DevOps
+J21842,API Endpoint Security Engineer,Secure RESTful routes build OAuth tokens restrict external connections protect JSON records,API Security|OAuth2|Cybersecurity
+J10741,Warehouse Analytics Index Optimizer,Optimize heavy relational join query trees configure storage partitioning tune database engines,SQL|Databases|Performance Tuning
+J24843,Observability Operations Monitoring Engineer,Monitor system latency metrics manage prometheus logging scrapers build operational grafana interfaces,Observability|DevOps|Monitoring
+J13842,IT Professional Training Lifecycle Analyst,Evaluate professional competency performance logs capture sequential user training behaviors on platforms,Performance Analysis|Adaptive Learning|AI
+J16943,IT Performance Evaluation Architecture Consultant,Tune squeeze-excitation residual convolutional model components verify behavior analytics systems,Deep Learning|Performance Analysis|Python
+J22841,Cloud Services Advisory Platform Manager,Oversee cloud technology service portals maximize university enterprise infrastructure resources,Cloud Computing|System Administration|Platform Intelligence
+J14242,Secured Credential Block Verification Architect,Verify blockchain accreditation tokens protect equivalence certification transcripts resist database tempering,Blockchain|Security|Trust Verification
+J17254,Cross Domain Preference Transfer Consultant,Study source domain preference alignments minimize negative transfer signals over heterogeneous paths,Cross-Domain Recommendation|HIN|Machine Learning
+J20741,Senior Machine Learning Researcher,Develop conflict-avoidant parallel embedding pipelines optimize dual-level path-aware attention weights,Machine Learning|HIN|Attention Mechanism
+J11743,Data Disentanglement Theory Expert,Investigate structural semantic conflicts resolve feature cancellation bounds in heterogenous networks,Machine Learning|Theoretical Computer Science|Data Science
+J25742,Deep Recommendation Engine Optimization Specialist,Integrate HeteSim regularizations inside latent factorization matrices trace sparse Laplacian bounds,Recommender Systems|Matrix Factorization|Graph Databases
+J14941,Scalable Model Deployment Architect,Design linear time complexity GNN operations constrain quadratic interactive attention overheads,Software Architecture|Distributed Systems|Parallel Computing
+J18254,Text Level Knowledge Transfer Engineer,Extract high-order entities from syllabi resumes using BERT map text semantics to skills,NLP|Text Mining|Data Preprocessing
+J21642,Dynamic Graph Representation Modeler,Introduce temporal graph configurations capture real-time user job shifting dynamics,Dynamic Graphs|GNN|Machine Learning
+J10643,Multimodal LLM Integration Researcher,Combine large language modeling text encoders with structural inference cores smoothly,Generative AI|Transformers|NLP
+J24641,Privacy Preserving Federated Learning Engineer,Code decentralized optimization routines secure gradient update packages trace model leaks,Privacy-Preserving Learning|Federated Learning|Cybersecurity
+J13642,Trusted Credential Governance Lead,Govern cross-platform data access rules enforce minimal sharing secure credential workflows,Data Governance|Security|Trust Verification
+J16843,Distributed Task Airflow Shard Engineer,Scale Celery distributed worker tasks manage Redis message queues isolate pipeline steps,Apache Airflow|Distributed Systems|DevOps
+J22642,FastAPI REST Service Developer,Write asynchronous python api endpoints configure swagger definitions check payload parameters,FastAPI|Python|Web Development
+J14441,Observability Alert Management Architect,Configure prometheus firing thresholds structure alert notifications build operations monitoring tools,Monitoring|DevOps|Automation
+J17542,Agile Sprint Delivery Capacity Lead,Analyze historical team velocity parameters optimize sprint capacity estimate points,Agile|Project Management|Scrum
+J20543,C++ STL Memory Allocator Programmer,Utilize custom containers compile low-level pointer management rules trace execution stack,C++|Programming|Data Structures
+J11542,Android Component Lifecycle Auditor,Audit activity state persistence track low-level background intent worker registrations,Android|Mobile Development|Java
+J25541,Scrum Product Feature Grooming Lead,Refine ticket descriptions prioritize features shape acceptance criteria iteratively,Scrum|Agile|Project Management
+J14742,GPU Warp Architecture Scheduling Optimist,Minimize global memory latency coordinate multi-threaded block communications write raw kernels,CUDA|Parallel Computing|GPU
+J18541,OpenMP Loop Vectorization Consultant,Inject parallel compiler instructions handle shared runtime scopes scale loop threads,Parallel Computing|OpenMP|C++
+J21443,Distributed Consensus Simulation Engineer,Simulate raft leader validation tests debug replication consensus errors under splits,Consensus|Raft|Distributed Systems
+J10342,C++ Compiler Syntax Tree Builder,Write parser rules define grammar states convert raw programming strings to tokens,Compilers|Parsing|Computer Science
+J24341,OpenGL Render Lighting Architect,Code vertex shader fragment calculations texture map 3D mesh objects smoothly,OpenGL|Computer Graphics|3D
+J13342,Genetic Algorithm Global Optimization Modeler,Implement evolutionary fitness rules guide global numerical searches bypass localized drops,Optimization|Heuristics|Algorithms
+J16543,Processor Instruction Hazard Auditor,Calculate pipeline branch delays track hardware resource contention optimize machine codes,Computer Architecture|Hardware|Assembly
+J22541,x86 Assembly Hardware Debugging Consultant,Trace execution system stacks evaluate register state variations code assembly operations,Assembly|System Programming|Hardware
+J14642,PKI Transport Protection Administrator,Manage server certificates deploy transport layer protection keys verify identity nodes,PKI|Cybersecurity|Cryptography
+J17654,Elliptic Curve Cryptography Mathematician,Code modular arithmetic blocks map security token primitives track mathematical proofs,Cryptography|Mathematics|Cybersecurity
+J20442,Solidity Decentralized App Auditor,Audit smart contract immutable states catch reentrancy vulnerabilities verify transactions,Solidity|Blockchain|Software Security
+J11343,Web Crawling Infrastructure Architect,Build high-volume asynchronous scrappers handle defensive anti-crawling tracking codes,Data Engineering|Python|Web Scraping
+J25441,Machine Learning Library System Designer,Structure tensor multiplication compilation graphs isolate model training memory tiers,Machine Learning|Software Architecture|Python
+J18654,SOLID Object Architecture Specialist,Refine tightly bound source codes enforce single responsibility inject dependencies,Design Patterns|Software Architecture|Java
+J21341,Git Rebase Operation Expert,Manage complex repository tree histories prune redundant branches resolve merge paths,Git|DevOps|Collaboration
+J10243,Standardized JSON Stream Parser,Verify data payload schemas map dictionary fields check datatypes automatically,JSON|Data Interchange|Backend Development
+J24242,OAuth2 Inbound Connection Guard,Configure authentication token lifetimes secure server access entry points map permissions,OAuth2|API Security|Cybersecurity
+J13241,gRPC Communication Interface Modeler,Structure protobuf service channels decouple microservice dependencies configure message streams,Microservices|Software Architecture|Distributed Systems
+J16443,Corporate Performance Analytics Scriptwriter,Automate metric logging script scheduled document compilations broadcast report modifications,Business Intelligence|ETL|Data Analysis
+J22241,Pandas Vector Mapping Developer,Merge multi-index data frames track data groupings utilize rapid transformations,Pandas|Python|Data Preprocessing
+J14542,Matplotlib Production Plot Artist,Layer analytical graphics configure layout typography save crisp visual files,Matplotlib|Data Visualization|Python
+J17854,Seaborn High Dimension Grid Architect,Plot multi-panel statistical records visualize multi-variable data distributions track indicators,Seaborn|Data Visualization|Data Science
+J20241,Scikit-learn Automated Model Picker,Build machine learning transformers evaluate multiple predictive baseline model pipelines,Scikit-learn|Machine Learning|Python
+J11243,Unsupervised Silhouette Profile Calculator,Evaluate cluster distance indices minimize error metrics monitor layout cohesion,Machine Learning|Unsupervised Learning|Scikit-learn
+J25242,Tabular Predictive Feature Synthesizer,Create polynomial features encode high-cardinality values scale skewed data distributions,Feature Engineering|Data Preprocessing|Data Science
+J14741,Insulated Model Evaluation Specialist,Enforce strict stratified k-fold splits eliminate data leaks verify parameters,Model Evaluation|Machine Learning|Data Science
+J18454,PyTorch Custom Layer Engineer,Write multi-layered torch networks manage custom gradient updates control variables,PyTorch|Deep Learning|Python
+J21243,TensorFlow Keras Optimization Expert,Compile neural graph execution flows trace network backpropagation steps serialize models,TensorFlow|Deep Learning|Python
+J10142,Visual Scene Object Localizer,Train convolutional visual networks extract layer vectors calculate intersection metrics,Computer Vision|Deep Learning|CNN
+J24141,Recurrent Text Sequence Modeler,Adjust recurrent dropout factors map sentence sequences model document dependencies,Deep Learning|RNN|LSTM
+J13142,Generative Network Variance Stabilizer,Deploy normalization constraints optimize generator training steps balance text synthesis,Deep Learning|GAN|Generative AI
+J16343,Multi Head Attention Encoder Developer,Calculate scaled query key vectors concatenate head projection matrices optimize blocks,Deep Learning|Attention Mechanism|Transformers
+J22142,Lexical Text Mining Pipeline Engineer,Build tokenizers remove corpus punctuation transform text to sparse matrices,NLP|Text Mining|Python
+J14443,Waveform Cepstral Coefficient Extractor,Discretize continuous sound data analyze spectral audio frequencies isolate patterns,Audio Processing|DSP|Deep Learning
+J17454,Alternating Least Squares Engine Optimist,Factorize massive preference matrices approximate user scores control factorization weights,Recommender Systems|Matrix Factorization|Collaborative Filtering
+J20141,Continuous Deployment Server Configurer,Script automated configuration servers map artifact revisions optimize delivery pipelines,DevOps|CI/CD|Automation
+J11042,Historical Team Velocity Metric Calculator,Review sprint burndown indicators adjust point distributions track progress steps,Scrum|Agile|Project Management
+J25043,User Retention Market Strategy Analyst,Analyze interaction patterns forecast churn variables design long-term product roadmaps,Product Management|Business Strategy|Agile
+J13041,SQL Subquery Profiling Advisor,Analyze table scan profiles evaluate index key usage speed up queries,SQL|Databases|Performance Tuning
+J16242,MongoDB Replica Shard Manager,Cluster database servers map document routes manage high write fragmentation,NoSQL Databases|MongoDB|Database Administration
+J22041,Cypher Path Search Developer,Query structural graphs analyze page-rank metrics extract centrality routes via cypher,Graph Databases|Neo4j|Network Analysis
+J14343,Database Architecture Schema Designer,Deconstruct enterprise tables map relational primary foreign keys draw clean models,Databases|SQL|Database Design
