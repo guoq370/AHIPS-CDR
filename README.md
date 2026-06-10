@@ -93,5 +93,4 @@ alpha, beta, lambda: Weights for Joint Optimization Loss (MF + Structure + HeteS
 
 learning_rate: Optimization step size.
 ## Notice
-The current implementation is still under refinement.
-The training code for AHIPS-CDR  will be released after the associated paper is accepted.
+The code is provided for peer-review purposes. A public release with further documentation and examples is planned upon paper acceptance.
